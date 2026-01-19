@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "263108080315",
+    "project_id": "rocketball-23c12",
+    "storage_bucket": "rocketball-23c12.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263108080315:android:1c376e95e7ff9d38f42f9e",
+        "android_client_info": {
+          "package_name": "com.pockethaven.rocketgoal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263108080315-2pi728e5jbatvr4t6pqvsu5kmoh2od8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMJJIaVulqBp7QOV1mRZMMS2llxDqYugw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263108080315-2pi728e5jbatvr4t6pqvsu5kmoh2od8i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
