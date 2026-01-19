@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="robots" content="noindex,follow">
+<title>Игра Обби: Пролети Дальше всех на Самолете - 8Games.net</title>
+<link rel="stylesheet" href="/lib/game-loader/gameloader2020.css" />
+<script src="/lib/game-loader/gameloader2020.js"></script>
+<!-- <script>
+	var onOpenTimeout = 100,
+	onRewardedTimeout = 5000,
+	onCloseTimeout = 5100,
+	onCloseTimeoutFullAdv = 5100;
+</script> -->
+<script>
+var mockProducts = {"products":[{"id":"spin_5","title":"5 cпинов","description":"5 спинов для Колеса Фортуны","price":49,"image":{"url_prefix":"https://avatars.mds.yandex.net/get-games/6300668/2a000001955fed72a35fd1cbe18521d03a19/"}},{"id":"vip","title":"VIP доступ","description":"VIP статус навсегда","price":99,"image":{"url_prefix":"https://avatars.mds.yandex.net/get-games/13012056/2a000001955fed5556c1d0a1cb139f33e942/"}}]}
+;
+</script>
+<script src="/lib/ysdk/v2.js"></script> 
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script>
+            var player;
+            var payments;
+            var products;
+            var lb;
+
+            YaGames.init().then(ysdk => {
+                console.log('Yandex SDK initialized');
+                window.ysdk = ysdk;
+
+                initPlayer();
+                initPayments();
+                initLeaderboard();
+
+                ysdk.adv.showFullscreenAdv();
+
+                initUnityGame();
+            }
+            );
+
+            function initPlayer() {
+                ysdk.getPlayer({
+                    scopes: false
+                }).then(_player => {
+                    console.log('Player initialized');
+                    player = _player;
+                }
+                ).catch(err => {
+                    console.log('Player not initialized: ', err);
+                    // Ошибка при инициализации объекта Player.
+                }
+                );
+            }
+
+            function initPayments() {
+                ysdk.getPayments({
+                    signed: true
+                }).then(_payments => {
+                    console.log('Payments available');
+                    payments = _payments;
+                    payments.getCatalog().then(_products => {
+                        console.log('Products loaded');
+                        products = _products;
+                    }
+                    );
+                }
+                ).catch(err => {
+                    console.log('Payments not available');
+                }
+                )
+            }
+
+            function initLeaderboard() {
+                //ysdk.getLeaderboards().then(_lb => lb = _lb);
+            }
+
+            function initUnityGame() {/*
+                var script = document.createElement("script");
+                script.src = loaderUrl;
+                script.onload = () => {
+                    createUnityInstance(canvas, config, (progress) => {
+                        progressBarFull.style.width = 100 * progress + "%";
+                    }
+                    ).then( (unityInstance) => {
+                        window.unityInstance = unityInstance;
+                        loadingBar.style.display = "none";
+                    }
+                    ).catch( (message) => {
+                        alert(message);
+                    }
+                    );
+                }
+                ;
+
+                //document.body.appendChild(script);
+            */}
+</script>
+<script src="/lib/game-loader/logo_helper.js"></script>
+<script>
+		document.addEventListener('DOMContentLoaded', (e) => {
+			alertLogo("120",{bottom:"50px",left:"5px"});
+		})
+</script>
+</head>
+<body>
+<script type="text/javascript">
+	var options = {
+		author: "8Games.net",
+		logo: "logo.jpg",
+		gameName: "Обби: Пролети Дальше всех на Самолете",
+		gameNameEu: "Obby: Plane Race Simulator",
+		gameUrl: "48026",
+		moreLink: ("https://8games.net"),
+		allowFullscreen: true,
+		locale: "ru_RU",
+		loader: "unity2020",
+		loaderOptions: {
+			unityLoaderUrl: "Build/roblox-airplanes.loader.js",
+			unityConfigOptions: {
+				dataUrl: "Build/roblox-airplanes.data.unityweb",
+				frameworkUrl: "Build/roblox-airplanes.framework.js.unityweb",
+			    codeUrl: "Build/roblox-airplanes.wasm.unityweb",
+				streamingAssetsUrl: "StreamingAssets"
+			}
+		},
+    };
+	GameInit.load(options);	  
+</script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"2cf565c5b1dc45228d3a7cc18aab5fac","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
