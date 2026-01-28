@@ -1,0 +1,476 @@
+/*body { 
+	padding: 0; 
+	margin: 0;
+	background: #3a3e41;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    /*font-size: 1.2em;
+}
+*/
+
+body {
+    /*padding: 0;*/
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: white;
+    font-size: 1.3em;
+    line-height: 1.4;
+    background-color: #3a3e41;
+}
+
+/* 
+    Turn on and off divs based on with
+    Then build toggle for hamberger
+ */
+
+#toplogoapp {
+    position:fixed;
+    top:0;
+    /* background: #FF0000;*/
+    padding: 5px 10px 5px 5px;
+}
+
+#toplogotype{ 
+    position:fixed;
+    top:0;
+    /* background: #FF0000;*/
+    padding-top:20px;
+    padding-left: 80px;
+}
+
+#topnav{
+    position:fixed;
+    top:0;
+    height: 70px;
+    width:100%;
+    background: #2e3033;
+}
+
+.topnav-right-hamburger {
+    /*float: right;
+    padding: 14px;*/
+    display: none;
+    padding: 15px 20px 10px 20px;
+    float: right;
+    text-align: right;  
+   /* background-color: red; */
+}
+
+.topnav-right {
+    float: right;
+   /*font-family: sans-serif;
+    font-weight: 500;*/
+    padding: 14px;
+    /* background-color: green;*/
+    display: inline;
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width:1000px) {
+  .topnav-right-hamburger {
+    /*background-color: olive;*/
+    display: inline;
+    /* color: white;*/
+  }
+
+  .topnav-right {
+    /*background-color: red;*/
+    /*color: white;*/
+    display: none;
+  }
+
+  #toplogotype {
+    position:fixed;
+    top:0;
+    /* background: #FF0000;*/
+    padding-top:20px;
+    padding-left: 80px;
+    }
+}
+
+.hamburger-menu {
+    /*float: right;*/
+    padding: 0px;
+    background-color: #111111;
+    display: none;
+    width:100%;
+    height:100%;
+    position:fixed;
+    text-align: center; 
+    top: 0px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#hamburger-close-right {
+    padding: 0px 20px 10px 10px;
+    float: right;
+    text-align: right;  
+    /*background-color: red;*/
+}
+
+.hamburger-open
+{
+
+}
+
+.hamburger-close
+{
+   /* position:fixed;
+    top:0;
+    width:100%;
+    background: #2e3033;*/
+    /*position:absolute;*/
+    /*top:0;*/
+}
+
+/* Style the links inside the navigation bar */
+.topnav-right a {
+  float: left;
+  color: #BBBBBB;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  /*font-size: 24px;*/
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size:  1.1em;
+}
+
+div.btn_close_mobile_class {
+    padding: 10px 10px;
+    background-color: #333333;
+    color: #ffffff;
+    width:150px;
+    border-radius:12px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.suggestionsBoxText {
+    padding: 10px 10px;
+    /*background-color: #aaaaaa;*/
+}
+
+.fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  opacity:  0.4;
+  background: #000000; /* Just to visualize the extent */
+}
+
+div.suggestionsBox {
+    position: fixed;
+    /* position:absolute; */
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    color: #333333;
+    text-align: center;
+    top:100px;
+    /*outline: solid;*/
+    /*outline-width: 2px;*/
+    outline-color: #ffffff; 
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px 2px #111; 
+    border-radius:8px;
+    /* border-radius:32px */
+    height:550px;
+    width:400px;
+    font-weight: 400;
+    margin: 0 auto;    
+}
+
+#specific_locations_add {
+    position:relative;
+}
+
+.topnav-right a:link {
+  /*background-color: #111111;*/
+  color: #BBBBBB;
+  /* text-decoration: none;*/
+}
+
+.topnav-right a:hover {
+  /*background-color: #FFFFFF;*/
+  color: #42d7b7;
+}
+
+.topnav-right a:visited {
+ text-decoration: none;
+ /* color: #BBBBBB;*/
+}
+
+.topnav-right a.active {
+  background-color: #04AA6D;
+  color: #42d7b7;
+}
+
+/* unvisited link */
+a:link {
+    color: #BBBBBB;
+}
+
+/* visited link */
+a:visited {
+  /*  text-decoration: none;*/
+   color: #BBBBBB;
+}
+/* mouse over link */
+a:hover {
+    color: #42d7b7;
+}
+
+/* selected link */
+a:active {
+    color: #42d7b7;
+}
+
+.rowsolid {
+    /*color: #FFFFFF;*/
+    width:100%;
+    background-color: #071963;
+}
+
+.center {
+    text-align: center;
+}
+
+#subtitle {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+    font-size:  1.6em;
+    /* padding-left: 25px;
+    padding-right: 25px;*/
+}
+
+#section {
+    font-weight: 100;
+    /* font-size:  1.4em; */
+    /*color: white;*/
+}
+
+#unity-container {
+    text-align: center;
+    margin-top: 120px;
+}
+
+#unity-container.unity-desktop { /*left: 50%; top: 50%; transform: translate(-50%, -50%) */}
+#unity-container.unity-mobile { /*position: fixed; width: 100%; height: 100% */}
+#unity-canvas { text-align: center; background: #3a3e41 }
+.unity-mobile #unity-canvas { width: 100%; height: 100% }
+#unity-loading-bar { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: none }
+#unity-logo { width: 40px; height: 35px;  background: url('anthill.jpg') no-repeat center }
+#unity-progress-bar-empty { width: 600px; height: 26px;  background-color: #882121; box-shadow: 0px 0px 10px #111; border-radius:8px}
+#unity-progress-bar-full { width: 0%; height: 26px; background: #DC4241; border-radius:8px }
+#unity-footer { position: relative }
+.unity-mobile #unity-footer { display: none }
+#unity-webgl-logo { float:left; width: 304px; height: 38px; background: url('webgl-logo.png') no-repeat center }
+#unity-build-title { float: right; margin-right: 10px; line-height: 38px; font-family: arial; font-size: 18px }
+#unity-fullscreen-button { cursor:pointer; float: right; width: 38px; height: 38px; background: url('fullscreen-button.png') no-repeat center }
+#unity-warning {
+    position: absolute;
+    left: 50%; top: 5%;
+    transform: translate(-50%);
+    background: white;
+    padding: 10px;
+    display: none
+}
+
+ #unity-progress-text {
+      color: #fff;
+      letter-spacing: 1px;
+      position: absolute;
+      width: 100%;
+      font-family: sans-serif;
+      text-align: center;
+     /* top: 50%; */
+      font-size: 14px;
+      font-weight: 500;
+      margin-top: -20px;
+	 /* margin-left: -108px; */
+      text-shadow: 0px 0px 5px #000;
+    }
+
+.loader {
+  display: inline-block;
+  position: relative;
+  width: 46px;
+  height: 46px;
+  /*background: #111111*/
+  margin-left: 0px;
+  /*margin-top:18;*/
+}
+
+.loader div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  margin: 2px;
+  border: 3px solid #000;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #AAAAAA transparent transparent transparent;
+}
+
+.loader div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+
+.loader div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+
+.loader div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* HOME PAGE CSS */
+
+/*
+#section{
+    font-weight: 100;
+    font-size:  1.4em;
+    color: white;
+}*/
+/*
+#subtitle{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 900;
+    font-size:  1.4em;
+}*/
+
+#minor {
+    font-weight: 300;
+    font-size:  0.8em;
+}
+
+#highlight {
+    /*color:yellow;*/
+}
+
+div.mainpage {
+    background-image: url("../../img/blue_stars.jpg");
+    background-repeat: no-repeat;
+    background-color: #05113d;
+    /* background-attachment: fixed;*/
+    background-position: center top;
+    margin-top: 50px; 
+}
+
+div.centerBlock {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+div.rowcontent {
+   /* border: 3px solid green;
+    padding: 10px;  */
+}
+
+div.center{
+    text-align: center;
+}
+
+/*
+    div.rowsolid {
+    padding: 0;
+    margin: 0;
+    background-color: #000205;
+}*/
+
+#wrap {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+#content {
+    float: left;
+    position: relative;
+    left: -50%;
+}
+
+div.floatleft{
+    float: left;    
+}
+
+div.rowsolidalt {
+  
+    overflow:auto ;
+    text-align: center;
+    background-color: #111111;
+    android:background="@android:color/transparent" 
+}
+
+.background-element {
+    -webkit-transform: translateZ(-999px) scale(1);
+    transform: translateZ(-999px) scale(1);
+    z-index: 3;
+  }
+
+/*
+iframe { 
+max-width: 100%;
+    max-height: 100%;
+    height: inherit !important;
+}*/
+
+div.rowbanner {
+    padding: 0;
+    margin: 0;
+    /*background-image: url("img/blue_stars.jpg");
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top; */
+}
+
+.box {
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+    padding: 10px; /* if you want space between the images */
+}
+
+#hero-video {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 960px;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border: 0;
+}
+
+/* When browser is smaller than 960px */
+@media (max-width: 960px) {
+  .box {
+    max-width: 720px !important;;       /* choose your reduced max width */
+  }
+}
+
+/* When browser is smaller than 480px (optional) */
+@media (max-width: 480px) {
+  .box {
+    max-width: 100px !important;;       /* your earlier requirement */
+  }
+}
