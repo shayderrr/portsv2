@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singLEFTmiss",
+			"fps": 60,
+			"name": " xleft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singDOWNmiss",
+			"fps": 60,
+			"name": " xdown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUPmiss",
+			"fps": 60,
+			"name": " xup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 60,
+			"name": " xright",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-80,
+				150
+			],
+			"anim": "idle",
+			"fps": 60,
+			"name": "red3d idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-60,
+				141
+			],
+			"loop": false,
+			"fps": 60,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "red3d down"
+		},
+		{
+			"offsets": [
+				-60,
+				140
+			],
+			"loop": false,
+			"fps": 60,
+			"anim": "singUP",
+			"indices": [],
+			"name": "red3d up"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-55,
+				140
+			],
+			"anim": "singLEFT",
+			"fps": 60,
+			"name": "red3d right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-70,
+				150
+			],
+			"anim": "singRIGHT",
+			"fps": 60,
+			"name": "red3d left",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/red3d",
+	"position": [
+		180,
+		680
+	],
+	"healthicon": "impostor",
+	"flip_x": false,
+	"healthbar_colors": [
+		9,
+		255,
+		255
+	],
+	"camera_position": [
+		120,
+		-290
+	],
+	"sing_duration": 4,
+	"scale": 1.03
+}

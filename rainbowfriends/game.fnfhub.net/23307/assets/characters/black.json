@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+					-30,
+				-440
+			],
+			"loop": false,
+			"fps": 60,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "black3d idle"
+		},
+		{
+			"offsets": [
+					-30,
+				-440
+			],
+			"loop": false,
+			"fps": 60,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "black3d idle"
+		},
+		{
+			"offsets": [
+				-30,
+				-440
+			],
+			"loop": false,
+			"fps": 60,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "black3d idle"
+		},
+		{
+			"offsets": [
+				-30,
+				-440
+			],
+			"loop": false,
+			"fps": 60,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "black3d idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				-440
+			],
+			"anim": "idle",
+			"fps": 60,
+			"name": "black3d idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-83,
+				-457
+			],
+			"anim": "singRIGHT",
+			"fps": 60,
+			"name": "black3d right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				35,
+				-470
+			],
+			"anim": "singLEFT",
+			"fps": 60,
+			"name": "black3d left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				-440
+			],
+			"anim": "singUP",
+			"fps": 60,
+			"name": "black3d up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-449
+			],
+			"anim": "singDOWN",
+			"fps": 60,
+			"name": "black3d down",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/black3d",
+	"position": [
+		500,
+		0
+	],
+	"healthicon": "black",
+	"flip_x": false,
+	"healthbar_colors": [
+		9,
+		200,
+		255
+	],
+	"camera_position": [
+		120,
+		-290
+	],
+	"sing_duration": 4,
+	"scale": 2.7
+}

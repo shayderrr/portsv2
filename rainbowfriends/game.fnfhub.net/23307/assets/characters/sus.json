@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 60,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": " xleft"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 60,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": " xdown"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 60,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": " xup"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 60,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": " xright"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-110,
+				150
+			],
+			"anim": "idle",
+			"fps": 60,
+			"name": "sus3d idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-100,
+				141
+			],
+			"anim": "singDOWN",
+			"fps": 60,
+			"name": "sus3d down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-110,
+				140
+			],
+			"anim": "singUP",
+			"fps": 60,
+			"name": "sus3d up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-120,
+				150
+			],
+			"anim": "singRIGHT",
+			"fps": 60,
+			"name": "sus3d right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-25,
+				140
+			],
+			"anim": "singLEFT",
+			"fps": 60,
+			"name": "sus3d left",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/sus3d",
+	"position": [
+		180,
+		680
+	],
+	"healthicon": "sus",
+	"flip_x": false,
+	"healthbar_colors": [
+		9,
+		200,
+		255
+	],
+	"camera_position": [
+		120,
+		-290
+	],
+	"sing_duration": 4,
+	"scale": 1.03
+}

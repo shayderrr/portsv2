@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 60,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": " xleft"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 60,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": " xdown"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 60,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": " xup"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 60,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": " xright"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				30,
+				130
+			],
+			"anim": "idle",
+			"fps": 60,
+			"name": "green3d idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				30,
+				130
+			],
+			"anim": "singUP",
+			"fps": 60,
+			"name": "green3d up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				70,
+				121
+			],
+			"anim": "singDOWN",
+			"fps": 60,
+			"name": "green3d down",
+			"indices": []
+		},
+		{
+			"offsets": [
+				75,
+				130
+			],
+			"indices": [],
+			"fps": 60,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "green3d right"
+		},
+		{
+			"offsets": [
+				150,
+				130
+			],
+			"indices": [],
+			"fps": 60,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "green3d left"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/green3d",
+	"position": [
+		180,
+		680
+	],
+	"healthicon": "impostor3",
+	"flip_x": false,
+	"healthbar_colors": [
+		9,
+		200,
+		255
+	],
+	"camera_position": [
+		120,
+		-290
+	],
+	"sing_duration": 4,
+	"scale": 1.03
+}
