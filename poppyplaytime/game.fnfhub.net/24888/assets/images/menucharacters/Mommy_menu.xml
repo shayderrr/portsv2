@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Mommy_menu.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="huggy20000" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20001" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20002" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20003" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20004" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20005" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20006" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20007" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20008" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20009" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20010" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20011" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20012" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20013" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20014" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20015" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20016" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20017" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20018" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20019" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20020" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20021" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20022" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20023" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20024" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20025" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20026" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20027" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20028" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20029" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20030" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20031" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20032" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20033" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20034" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20035" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20036" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20037" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20038" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20039" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20040" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20041" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20042" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20043" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20044" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20045" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20046" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20047" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20048" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20049" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20050" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20051" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20052" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20053" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20054" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20055" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20056" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20057" x="0" y="0" width="385" height="242"/>
+	<SubTexture name="huggy20058" x="0" y="242" width="385" height="242"/>
+	<SubTexture name="huggy20059" x="0" y="242" width="385" height="242"/>
+</TextureAtlas>

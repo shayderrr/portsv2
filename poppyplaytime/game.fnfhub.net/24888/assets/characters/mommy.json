@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				852,
+				230
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "mommy left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				850,
+				274
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "mommy up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				850,
+				224
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "mommy down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				850,
+				231
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "mommy idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				851,
+				231
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "mommy right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mommy_assets",
+	"position": [
+		500,
+		0
+	],
+	"healthicon": "face",
+	"flip_x": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		-1000,
+		-250
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

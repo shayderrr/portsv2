@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="end.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="groundfinal0000" x="0" y="0" width="3055" height="1185"/>
+	<SubTexture name="groundputito0000" x="3055" y="0" width="2" height="2"/>
+</TextureAtlas>

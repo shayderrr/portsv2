@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="wuggy1.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="huggy10000" x="0" y="0" width="382" height="332"/>
+	<SubTexture name="huggy10001" x="382" y="0" width="382" height="332"/>
+	<SubTexture name="huggy10002" x="764" y="0" width="382" height="332"/>
+	<SubTexture name="huggy10003" x="1146" y="0" width="382" height="332"/>
+	<SubTexture name="huggy10004" x="1528" y="0" width="382" height="332"/>
+	<SubTexture name="huggy10005" x="0" y="332" width="382" height="332"/>
+	<SubTexture name="huggy10006" x="382" y="332" width="382" height="332"/>
+	<SubTexture name="huggy10007" x="764" y="332" width="382" height="332"/>
+	<SubTexture name="huggy10008" x="1146" y="332" width="382" height="332"/>
+	<SubTexture name="huggy10009" x="1528" y="332" width="382" height="332"/>
+	<SubTexture name="huggy10010" x="1528" y="332" width="382" height="332"/>
+	<SubTexture name="huggy10011" x="1528" y="332" width="382" height="332"/>
+	<SubTexture name="huggy10012" x="1528" y="332" width="382" height="332"/>
+	<SubTexture name="huggy10013" x="1528" y="332" width="382" height="332"/>
+</TextureAtlas>

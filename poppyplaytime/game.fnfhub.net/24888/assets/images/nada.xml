@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="nada.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="nothinga0000" x="0" y="0" width="2" height="2"/>
+	<SubTexture name="nothingwhite0000" x="2" y="0" width="869" height="331"/>
+	<SubTexture name="nothingwhite0001" x="871" y="0" width="869" height="331"/>
+	<SubTexture name="nothingwhite0002" x="1740" y="0" width="869" height="331"/>
+	<SubTexture name="nothingwhite0003" x="2609" y="0" width="869" height="331"/>
+	<SubTexture name="nothingwhite0004" x="2609" y="0" width="869" height="331"/>
+	<SubTexture name="nothingwhite0005" x="2609" y="0" width="869" height="331"/>
+	<SubTexture name="nothingwhite0006" x="2609" y="0" width="869" height="331"/>
+	<SubTexture name="nothingwhite0007" x="2609" y="0" width="869" height="331"/>
+	<SubTexture name="nothingwhite0008" x="2609" y="0" width="869" height="331"/>
+	<SubTexture name="nothingwhite0009" x="2609" y="0" width="869" height="331"/>
+	<SubTexture name="nothingwhite0010" x="0" y="331" width="869" height="331"/>
+	<SubTexture name="nothingwhite0011" x="869" y="331" width="869" height="331"/>
+	<SubTexture name="nothingwhite0012" x="1738" y="331" width="869" height="331"/>
+	<SubTexture name="nothingwhite0013" x="2607" y="331" width="869" height="331"/>
+	<SubTexture name="nothingwhite0014" x="0" y="662" width="869" height="331"/>
+	<SubTexture name="nothingwhite0015" x="869" y="662" width="869" height="331"/>
+	<SubTexture name="nothingwhite0016" x="1738" y="662" width="869" height="331"/>
+	<SubTexture name="nothingwhite0017" x="2607" y="662" width="869" height="331"/>
+	<SubTexture name="nothingwhite0018" x="0" y="993" width="869" height="331"/>
+	<SubTexture name="nothingwhite0019" x="0" y="993" width="869" height="331"/>
+	<SubTexture name="nothingwhite0020" x="0" y="993" width="869" height="331"/>
+	<SubTexture name="nothingwhite0021" x="0" y="993" width="869" height="331"/>
+	<SubTexture name="nothingwhite0022" x="0" y="993" width="869" height="331"/>
+	<SubTexture name="nothingwhite0023" x="0" y="993" width="869" height="331"/>
+	<SubTexture name="nothingwhite0024" x="0" y="993" width="869" height="331"/>
+	<SubTexture name="nothingwhite0025" x="0" y="993" width="869" height="331"/>
+	<SubTexture name="nothingwhite0026" x="0" y="993" width="869" height="331"/>
+	<SubTexture name="nothingwhite0027" x="0" y="993" width="869" height="331"/>
+	<SubTexture name="nothingwhite0028" x="0" y="993" width="869" height="331"/>
+	<SubTexture name="nothingwhite0029" x="0" y="993" width="869" height="331"/>
+	<SubTexture name="nothingwhite0030" x="0" y="993" width="869" height="331"/>
+	<SubTexture name="nothingwhite0031" x="0" y="993" width="869" height="331"/>
+	<SubTexture name="nothingwhite0032" x="0" y="993" width="869" height="331"/>
+	<SubTexture name="nothingwhite0033" x="0" y="993" width="869" height="331"/>
+	<SubTexture name="nothingwhite0034" x="0" y="993" width="869" height="331"/>
+	<SubTexture name="nothingwhite0035" x="0" y="993" width="869" height="331"/>
+	<SubTexture name="nothingwhite0036" x="0" y="993" width="869" height="331"/>
+	<SubTexture name="nothingwhite0037" x="0" y="993" width="869" height="331"/>
+	<SubTexture name="nothingwhite0038" x="0" y="993" width="869" height="331"/>
+	<SubTexture name="nothingwhite0039" x="0" y="993" width="869" height="331"/>
+</TextureAtlas>

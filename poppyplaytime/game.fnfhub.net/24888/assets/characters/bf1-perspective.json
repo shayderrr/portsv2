@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				204,
+				67
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "bf down"
+		},
+		{
+			"offsets": [
+				273,
+				63
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "bf left"
+		},
+		{
+			"offsets": [
+				151,
+				108
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "start",
+			"indices": [],
+			"name": "bf start"
+		},
+		{
+			"offsets": [
+				140,
+				80
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "bf idle"
+		},
+		{
+			"offsets": [
+				114,
+				79
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "confused",
+			"indices": [],
+			"name": "bf confused"
+		},
+		{
+			"offsets": [
+				-28,
+				202
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "bf up"
+		},
+		{
+			"offsets": [
+				67,
+				138
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "bf right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bf1_assets",
+	"position": [
+		-140,
+		130
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		460,
+		-80
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

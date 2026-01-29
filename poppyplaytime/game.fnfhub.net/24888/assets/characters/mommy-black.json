@@ -1,0 +1,111 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				40
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "mommy left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-132,
+				116
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "mommy up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-240,
+				53
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "mommy right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-132,
+				1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "mommy down"
+		},
+		{
+			"offsets": [
+				-135,
+				36
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "mommy black"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-134,
+				50
+			],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "mommy idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-133,
+				42
+			],
+			"anim": "start",
+			"fps": 24,
+			"name": "mommy start",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-133,
+				42
+			],
+			"anim": "talk",
+			"fps": 24,
+			"name": "mommy talk",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mommy_black_assets",
+	"position": [
+		220,
+		260
+	],
+	"healthicon": "mommy2",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		10,
+		120
+	],
+	"sing_duration": 6.1,
+	"scale": 0.8
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pipe.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="tubo10000" x="0" y="0" width="349" height="1598"/>
+	<SubTexture name="tubo20000" x="349" y="0" width="2" height="2"/>
+</TextureAtlas>

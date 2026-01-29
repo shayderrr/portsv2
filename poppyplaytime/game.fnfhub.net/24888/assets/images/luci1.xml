@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="luci1.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="light10000" x="0" y="0" width="887" height="1362"/>
+	<SubTexture name="light20000" x="887" y="0" width="2" height="2"/>
+</TextureAtlas>

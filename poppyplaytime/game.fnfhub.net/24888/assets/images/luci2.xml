@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="luci2.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="luz10000" x="0" y="0" width="1792" height="1921"/>
+	<SubTexture name="luz10001" x="0" y="0" width="1792" height="1921"/>
+	<SubTexture name="luz10002" x="0" y="0" width="1792" height="1921"/>
+	<SubTexture name="luz10003" x="0" y="0" width="1792" height="1921"/>
+	<SubTexture name="luz10004" x="0" y="0" width="1792" height="1921"/>
+	<SubTexture name="luz10005" x="0" y="0" width="1792" height="1921"/>
+	<SubTexture name="luz10006" x="0" y="0" width="1792" height="1921"/>
+	<SubTexture name="luz10007" x="0" y="0" width="1792" height="1921"/>
+	<SubTexture name="luz10008" x="0" y="0" width="1792" height="1921"/>
+	<SubTexture name="luz10009" x="0" y="0" width="1792" height="1921"/>
+	<SubTexture name="luz10010" x="0" y="0" width="1792" height="1921"/>
+	<SubTexture name="luz10011" x="0" y="0" width="1792" height="1921"/>
+	<SubTexture name="luz10012" x="0" y="0" width="1792" height="1921"/>
+	<SubTexture name="luz10013" x="0" y="0" width="1792" height="1921"/>
+	<SubTexture name="luz10014" x="0" y="0" width="1792" height="1921"/>
+	<SubTexture name="luz20000" x="1792" y="0" width="2" height="2"/>
+</TextureAtlas>

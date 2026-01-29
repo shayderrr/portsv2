@@ -1,0 +1,30 @@
+{
+	"storyName": "Huggy wants to play",
+	"hideFreeplay": false,
+	"weekBackground": "black",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"huggy",
+		""
+	],
+	"songs": [
+		[
+			"hug me",
+			"huggy",
+			[
+				0,
+				13,
+				215
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "chapter1"
+}
