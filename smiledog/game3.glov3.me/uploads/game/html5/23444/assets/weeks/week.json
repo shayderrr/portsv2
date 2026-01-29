@@ -1,0 +1,20 @@
+{
+	"songs": [
+		["Spread The Word", "dog icons", [146, 113, 253]]
+	],
+
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "Daddy Dearest",
+	"weekBefore": "tutorial",
+	"weekName": "Spread The Word",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

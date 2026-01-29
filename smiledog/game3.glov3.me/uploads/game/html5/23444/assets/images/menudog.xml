@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="menudog.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="menudog0000" x="100" y="100" width="1438" height="962"/>
+	<SubTexture name="menudog0001" x="100" y="100" width="1438" height="962"/>
+	<SubTexture name="menudog0002" x="1638" y="100" width="1438" height="962"/>
+	<SubTexture name="menudog0003" x="1638" y="100" width="1438" height="962"/>
+	<SubTexture name="menudog0004" x="100" y="1162" width="1438" height="962"/>
+	<SubTexture name="menudog0005" x="100" y="1162" width="1438" height="962"/>
+</TextureAtlas>
