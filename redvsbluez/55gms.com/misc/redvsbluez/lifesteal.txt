@@ -1,0 +1,61 @@
+options:
+    max_hearts: 20
+    revive_cost: 4
+    revive_hearts: 4
+
+on join:
+    if {hearts::%player%} is not set:
+        set {hearts::%player%} to 10
+    applyhearts(player)
+
+function applyhearts(p: player):
+    set max health of {_p} to {hearts::%{_p}%} * 2
+    if health of {_p} > max health of {_p}:
+        set health of {_p} to max health of {_p}
+
+on death of player:
+    attacker is player
+    set {_killer} to attacker
+    set {_victim} to victim
+    remove 1 from {hearts::%{_victim}%}
+    if {hearts::%{_killer}%} < {@max_hearts}:
+        add 1 to {hearts::%{_killer}%}
+    applyhearts({_killer})
+    applyhearts({_victim})
+    if {hearts::%{_victim}%} <= 0:
+        set {dead::%{_victim}%} to true
+        set gamemode of {_victim} to spectator
+        send "&cyou lost all your hearts. you need to be revived." to {_victim}
+
+on damage of player:
+    if {dead::%victim%} is true:
+        cancel event
+
+command /revive <player>:
+    permission: lifesteal.revive
+    trigger:
+        set {_target} to arg-1
+        if {_target} is not online:
+            send "&cthat player is not online." to player
+            stop
+        if {dead::%{_target}%} is not true:
+            send "&cthat player is not dead." to player
+            stop
+        if {hearts::%player%} <= {@revive_cost}:
+            send "&cyou dont have enough hearts to revive someone." to player
+            stop
+        remove {@revive_cost} from {hearts::%player%}
+        set {hearts::%{_target}%} to {@revive_hearts}
+        delete {dead::%{_target}%}
+        set gamemode of {_target} to survival
+        teleport {_target} to player
+        applyhearts(player)
+        applyhearts({_target})
+        send "&ayou revived %{_target}% and sacrificed {@revive_cost} hearts." to player
+        send "&ayou have been revived with {@revive_hearts} hearts!" to {_target}
+
+every 1 second:
+    loop all players:
+        if {hearts::%loop-player%} > {@max_hearts}:
+            set {hearts::%loop-player%} to {@max_hearts}
+            applyhearts(loop-player)
